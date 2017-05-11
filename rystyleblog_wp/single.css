@@ -1,0 +1,269 @@
+/* common */
+html, body{
+	margin: 0;         /* 余白の削除 */
+	padding: 0;        /* 余白の削除 */
+	width:100%;
+	height:100%;
+}
+
+body {
+	font-size: 12px;
+	font-family: Verdana,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	color: #202020;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.5;
+	transition: 0.6s;
+}
+
+ul {
+	padding: 15px 0 0 0;
+}
+
+i {
+	font-size: 16px;
+	margin: 7.5px 2.5px 0 0;
+}
+
+/* header */
+body #wrapper {
+	margin: 60px 20px 20px 20px;
+}
+
+header .active {
+	background-color: #778899;
+	color: white;
+}
+
+header .not_active {
+	color: dimgray;
+}
+
+header .widget {
+	margin-top: 25px;
+	margin-bottom: 5px;
+	color: #202020;
+}
+
+header a {
+	color: dimgray;
+}
+
+ul .sns_icons {
+	margin-bottom: 60px;
+}
+/* header */
+
+/* main */
+#wrapper main {
+}
+
+main .article {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.article a {
+	/*display: block;*/
+}
+
+.article img {
+	width: 100%;
+	height: auto;
+}
+
+.article .info {
+	margin-top: -7px;
+	margin-bottom: 60px;
+}
+
+.article .title {
+	margin: 10px 0 0 0;
+	font-size: 20px;
+	color: #202020;
+}
+
+.article .date {
+	margin-top: 5px;
+	margin-bottom: 3px;
+	font-size: 8px;
+	color: #202020;
+}
+
+.article .category {
+	margin-top: 0;
+	font-size: 8px;
+	color: #202020;
+}
+
+.section img {
+	margin-bottom: 25px;
+}
+
+.section p {
+	margin: 0 0 25px 0;
+	line-height: 25px;
+}
+
+.article .pager {
+	width:100%;
+	margin-top: 50px;
+	padding-top: 50px;
+	border-top: solid 2px lightgray;
+}
+
+.pager a {
+	color: dimgray;
+}
+
+ul.share_btn {
+	width:100%;
+	margin: 80px 0 0 0;
+	padding: 0;
+}
+
+.share_btn li {
+	float: left;
+	width: 25%;
+	margin: 0;
+	list-style: none !important;
+}
+
+.share_btn a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	padding: 0;
+	font-size: 11px;
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+
+.share_btn a:hover {
+	color: #fff;
+	position: relative;
+	top: -3px;
+}
+
+span.social_icon {
+	margin-right: 3px;
+	font-size: 16px;
+}
+
+.share_btn li:last-child {
+	margin-right: 0;
+}
+
+.share_btn:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+a.facebook_btn {
+	background: #315096;
+}
+
+.facebook_btn:hover {
+	/*background: #5979be;*/
+	background: #5387fc;
+}
+
+a.twitter_btn {
+	background: #55acee;
+}
+
+.twitter_btn:hover {
+	/*background: #88e1ff;*/
+	background: #5bb8ff;
+}
+
+a.hatebu_btn {
+	background: #008fde;
+}
+
+.hatebu_btn:hover {
+	background: #02a1f9;
+}
+
+span.hatebu_icon {
+	font-family: Verdana;
+	margin-right: 3px;
+	font-size: 11px;
+}
+
+a.hatebu_btn span {
+	position: relative;
+	top: -1px;
+}
+
+ul.share_btn_bottom {
+	margin: 20px 0 30px 0;
+}
+
+a.google_btn {
+	background: #dd4b39;
+}
+
+.google_btn:hover {
+	background: #ff7777;
+}
+/* main */
+
+/* footer */
+footer p {
+	color: dimgray;
+	margin-top: 50px;
+	font-size: 10px;
+}
+/* footer */
+ 
+@media screen and (min-width:1024px) { 
+    /*　for PC　*/
+    body {
+    	font-size: 12px;
+    }
+
+    body #wrapper {
+		/*margin: 20px;*/
+	}
+
+	header {
+		position: fixed;
+	    top: 80px;                   
+	    left: 60px;
+	    width: 125px;
+	}
+
+	main {
+		width: 70%;
+		margin: 80px 0 100px 220px;
+	}
+
+	footer {
+		margin: 0 0 0 220px;
+	}
+
+}
