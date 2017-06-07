@@ -12,6 +12,9 @@
 				Design and Engineering <br>
 				openFrameworks / glsl / unity
 			</p>
+			<p class="text">
+				rystylee8@gmail.com
+			</p>
 		</div>
 
 	</main>
