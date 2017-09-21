@@ -73,10 +73,10 @@ main .article {
 	/*display: block;*/
 }
 
-.article img {
+/*.article img {
 	width: 100%;
 	height: auto;
-}
+}*/
 
 .article .info {
 	margin-top: -7px;
